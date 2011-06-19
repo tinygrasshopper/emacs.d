@@ -1,10 +1,8 @@
-(setq tab-width 2)
+(add-to-list 'load-path "~/.emacs.d/packages/external/color-theme-6.6.0")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)))
 
-;; Get rid of the annoying 4 space default for sh mode
-(defun setup-sh-mode ()
-  (setq sh-basic-offset 2
-        sh-indentation 2
-	sh-indent-for-case-label 0
-        sh-indent-for-case-alt '+)
-)
-(add-hook 'sh-mode-hook 'setup-sh-mode)
+(load-file "~/.emacs.d/custom.el")
+
