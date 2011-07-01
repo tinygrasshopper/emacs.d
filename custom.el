@@ -11,3 +11,9 @@
 
 
 (color-theme-dark-laptop)
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+
+;; Font size to 7
+(set-face-attribute 'default nil :height 70)
