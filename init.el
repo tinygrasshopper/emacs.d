@@ -11,3 +11,7 @@
 
 (load-file "~/.emacs.d/custom.el")
 
+;; Remove the menu and tool bar's
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(toggle-scroll-bar -1)
