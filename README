@@ -1,1 +1,5 @@
 Trying to grow an Emacs config
+
+Requires:
+
+make, wget, unzip
