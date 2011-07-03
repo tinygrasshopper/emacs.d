@@ -17,3 +17,10 @@
 
 ;; Font size to 7
 (set-face-attribute 'default nil :height 70)
+
+
+;; Shift + Arrow keys for moving across windows
+(windmove-default-keybindings)
+
+
+(global-set-key (kbd "C-/") 'comment-or-uncomment-region)
