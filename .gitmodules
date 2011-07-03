@@ -1,3 +1,12 @@
 [submodule "packages/auto-complete"]
 	path = packages/auto-complete
 	url = https://github.com/m2ym/auto-complete.git
+[submodule "packages/zencoding"]
+	path = packages/zencoding
+	url = git://github.com/rooney/zencoding.git
+[submodule "packages/yasnippet"]
+	path = packages/yasnippet
+	url = https://github.com/emacsmirror/yasnippet.git
+[submodule "packages/zencoding-mode"]
+	path = packages/zencoding-mode
+	url = git://github.com/rooney/zencoding.git
