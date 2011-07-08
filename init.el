@@ -14,9 +14,17 @@
 (add-hook 'sgml-mode-hook 'zencoding-mode)
 
 (add-to-list 'load-path "~/.emacs.d/packages/yasnippet")
+
 (require 'yasnippet)
 (yas/initialize)
-(yas/load-directory "~/.emacs.d/packages/yasnippet/snippets")
+
+
+(add-to-list 'load-path "~/.emacs.d/packages/scala-mode")
+(require 'scala-mode-auto)
+
+(setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets"))
+;;(yas/load-directory yas/my-directory)
+(mapc 'yas/load-directory yas/root-directory)
 
 (load-file "~/.emacs.d/custom.el")
 

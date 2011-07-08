@@ -10,3 +10,6 @@
 [submodule "packages/zencoding-mode"]
 	path = packages/zencoding-mode
 	url = git://github.com/rooney/zencoding.git
+[submodule "packages/scala-mode"]
+	path = packages/scala-mode
+	url = git://github.com/Yasushi/scala-mode.git
