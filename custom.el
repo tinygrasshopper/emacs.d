@@ -16,7 +16,7 @@
 
 
 ;; Font size to 7
-(set-face-attribute 'default nil :height 70)
+(set-face-attribute 'default nil :height 90)
 
 
 ;; Shift + Arrow keys for moving across windows
