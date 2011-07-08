@@ -28,6 +28,12 @@
 
 (load-file "~/.emacs.d/custom.el")
 
+
+(require 'ido)
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
 ;; Remove the menu and tool bar's
 (menu-bar-mode -1)
 (tool-bar-mode -1)
