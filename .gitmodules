@@ -13,3 +13,6 @@
 [submodule "packages/scala-mode"]
 	path = packages/scala-mode
 	url = git://github.com/Yasushi/scala-mode.git
+[submodule "packages/rvm.el"]
+	path = packages/rvm.el
+	url = git://github.com/senny/rvm.el
