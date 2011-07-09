@@ -19,3 +19,6 @@
 [submodule "src-packages/auto-complete"]
 	path = src-packages/auto-complete
 	url = https://github.com/m2ym/auto-complete.git
+[submodule "packages/rinari"]
+	path = packages/rinari
+	url = git://github.com/eschulte/rinari.git
