@@ -1,6 +1,3 @@
-[submodule "packages/auto-complete"]
-	path = packages/auto-complete
-	url = https://github.com/m2ym/auto-complete.git
 [submodule "packages/zencoding"]
 	path = packages/zencoding
 	url = git://github.com/rooney/zencoding.git
