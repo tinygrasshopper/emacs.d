@@ -2,9 +2,9 @@
 (require 'color-theme)
 (eval-after-load "color-theme" '(progn (color-theme-initialize)))
 
-(add-to-list 'load-path "~/.emacs.d/packages/installed/auto-complete")
+(add-to-list 'load-path "~/.emacs.d/packages/auto-complete")
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/packages/installed/auto-complete/ac-dict")
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/packages/auto-complete/ac-dict")
 (ac-config-default)
 
 (add-to-list 'load-path "~/.emacs.d/packages/zencoding")

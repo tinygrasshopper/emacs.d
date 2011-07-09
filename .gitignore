@@ -4,6 +4,6 @@ tmp/*
 .#*
 *#
 *~
-packages/installed/*
 ac-comphist.dat
 places
+packages/auto-complete
