@@ -19,3 +19,6 @@
 [submodule "packages/color-theme"]
 	path = packages/color-theme
 	url = https://github.com/emacsmirror/color-theme.git
+[submodule "src-packages/auto-complete"]
+	path = src-packages/auto-complete
+	url = https://github.com/m2ym/auto-complete.git
