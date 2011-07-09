@@ -38,3 +38,9 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (toggle-scroll-bar -1)
+
+;; Questions as y/n rather than yes/no
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; syntax highlighting by default
+(global-font-lock-mode 1)
