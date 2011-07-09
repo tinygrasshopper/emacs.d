@@ -16,3 +16,6 @@
 [submodule "packages/rvm.el"]
 	path = packages/rvm.el
 	url = git://github.com/senny/rvm.el
+[submodule "packages/color-theme"]
+	path = packages/color-theme
+	url = https://github.com/emacsmirror/color-theme.git

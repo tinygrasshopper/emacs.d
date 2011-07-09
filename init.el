@@ -1,8 +1,6 @@
-(add-to-list 'load-path "~/.emacs.d/packages/external/color-theme-6.6.0")
+(add-to-list 'load-path "~/.emacs.d/packages/color-theme")
 (require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)))
+(eval-after-load "color-theme" '(progn (color-theme-initialize)))
 
 (add-to-list 'load-path "~/.emacs.d/packages/installed/auto-complete")
 (require 'auto-complete-config)
