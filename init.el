@@ -39,6 +39,9 @@
 (tool-bar-mode -1)
 (toggle-scroll-bar -1)
 
+;; Enable copy to X-clipboard
+(setq x-select-enable-clipboard t)
+
 ;; Questions as y/n rather than yes/no
 (fset 'yes-or-no-p 'y-or-n-p)
 
