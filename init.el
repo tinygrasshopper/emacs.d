@@ -1,26 +1,13 @@
-(add-to-list 'load-path "~/.emacs.d/packages/color-theme")
-(require 'color-theme)
-(eval-after-load "color-theme" '(progn (color-theme-initialize)))
+(load-file "~/.emacs.d/lib.el")
 
-(add-to-list 'load-path "~/.emacs.d/packages/auto-complete")
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/packages/auto-complete/ac-dict")
-(ac-config-default)
+;; Comment out packages that are not needed
+(load-package "color-theme")
+(load-package "auto-complete")
+(load-package "zencoding")
+(load-package "yasnippet")
+(load-package "scala-mode")
+(load-package "rvm")
 
-(add-to-list 'load-path "~/.emacs.d/packages/zencoding")
-(require 'zencoding-mode)
-(add-hook 'sgml-mode-hook 'zencoding-mode)
-
-(add-to-list 'load-path "~/.emacs.d/packages/yasnippet")
-(require 'yasnippet)
-(yas/initialize)
-
-(add-to-list 'load-path "~/.emacs.d/packages/scala-mode")
-(require 'scala-mode-auto)
-
-(add-to-list 'load-path "~/.emacs.d/packages/rvm.el")
-(require 'rvm)
-(rvm-use-default)
 
 ;; Snippet Directory
 (setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets"))
