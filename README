@@ -1,5 +1,3 @@
-Trying to grow an Emacs config
+A simple emacs config
 
-Requires:
-
-make, wget, unzip
+run install.sh to install
