@@ -1,0 +1,36 @@
+(add-to-list 'load-path "~/.emacs.d/packages/one-key")
+(require 'one-key)
+(defvar one-key-menu-bookmark-alist nil
+  "The `one-key' menu list for BOOKMARK.")
+
+(setq one-key-menu-bookmark-alist
+      '(
+	(("C-@" . "point-to-register") . point-to-register)
+	(("SPC" . "point-to-register") . point-to-register)
+	(("+" . "increment-register") . increment-register)
+	(("b" . "bookmark-jump") . bookmark-jump)
+	(("c" . "clear-rectangle") . clear-rectangle)
+	(("d" . "delete-rectangle") . delete-rectangle)
+	(("f" . "frame-configuration-to-register") . frame-configuration-to-register)
+	(("g" . "insert-register") . insert-register)
+	(("i" . "insert-register") . insert-register)
+	(("j" . "jump-to-register") . jump-to-register)
+	(("k" . "kill-rectangle") . kill-rectangle)
+	(("l" . "bookmark-bmenu-list") . bookmark-bmenu-list)
+	(("m" . "bookmark-set") . bookmark-set)
+	(("n" . "number-to-register") . number-to-register)
+	(("o" . "open-rectangle") . open-rectangle)
+	(("r" . "copy-rectangle-to-register") . copy-rectangle-to-register)
+	(("s" . "copy-to-register") . copy-to-register)
+	(("t" . "string-rectangle") . string-rectangle)
+	(("w" . "window-configuration-to-register") . window-configuration-to-register)
+	(("x" . "copy-to-register") . copy-to-register)
+	(("y" . "yank-rectangle") . yank-rectangle)
+	(("C-SPC" . "point-to-register") . point-to-register)
+	))
+
+(defun one-key-menu-bookmark ()
+  (interactive)
+  (one-key-menu "BOOKMARK" one-key-menu-bookmark-alist))
+
+(global-set-key (kbd "C-x r") 'one-key-menu-bookmark)

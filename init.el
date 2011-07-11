@@ -9,6 +9,7 @@
 (load-package "rvm")
 (load-package "rhtml")
 (load-package "rinari")
+;; (load-package "one-key")
 
 ;; Snippet Directory
 (setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets"))
