@@ -8,6 +8,7 @@
 (load-package "scala-mode")
 (load-package "rvm")
 (load-package "rhtml")
+(load-package "rinari")
 
 ;; Snippet Directory
 (setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets"))
