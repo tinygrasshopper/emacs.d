@@ -15,7 +15,7 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 
-;; Font size to 7
+;; Font size to 9
 (set-face-attribute 'default nil :height 90)
 
 

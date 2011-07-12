@@ -14,7 +14,7 @@
 ;; Snippet Directory
 (setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets"))
 ;;(yas/load-directory yas/my-directory)
-(mapc 'yas/load-directory yas/root-directory)
+(mapc 'yas/load-directory yas/my-directory)
 
 (require 'ido)
 (setq ido-enable-flex-matching t)
@@ -36,3 +36,4 @@
 (global-font-lock-mode 1)
 
 (load-file "~/.emacs.d/custom.el")
+(load-file "~/.emacs.d/key-bindings.el")
