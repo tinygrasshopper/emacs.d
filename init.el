@@ -10,9 +10,12 @@
 (load-package "rhtml")
 (load-package "rinari")
 ;; (load-package "one-key")
+(load-package "cucumber")
+
 
 ;; Snippet Directory
-(setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets"))
+(setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets" "~/.emacs.d/packages/cucumber/snippets"))
+
 ;;(yas/load-directory yas/my-directory)
 (mapc 'yas/load-directory yas/my-directory)
 

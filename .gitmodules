@@ -28,3 +28,6 @@
 [submodule "packages/one-key"]
 	path = packages/one-key
 	url = https://github.com/emacsmirror/one-key.git
+[submodule "packages/cucumber"]
+	path = packages/cucumber
+	url = https://github.com/michaelklishin/cucumber.el
