@@ -3,4 +3,4 @@
 (windmove-default-keybindings)
 
 
-(global-set-key (kbd "C-/") 'comment-or-uncomment-region)
+;;(global-set-key (kbd "C-/") 'comment-or-uncomment-region)
