@@ -11,6 +11,7 @@
 (load-package "rinari")
 ;; (load-package "one-key")
 (load-package "cucumber")
+(load-package "ruby-test-mode")
 
 
 ;; Snippet Directory

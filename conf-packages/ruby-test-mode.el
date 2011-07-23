@@ -1,2 +1,2 @@
-(add-to-list 'load-path "~/.emacs.d/packages/ruby-test-mode")
-(require 'ruby-test)
+(load-file "~/.emacs.d/packages/ruby-test-mode/ruby-test-mode.el")
+(require 'ruby-test-mode)
