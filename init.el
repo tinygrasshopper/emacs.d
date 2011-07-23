@@ -38,5 +38,11 @@
 ;; syntax highlighting by default
 (global-font-lock-mode 1)
 
+;; match braces
+(show-paren-mode 1)
+
+;; remove splash
+(setq inhibit-splash-screen t)
+
 (load-file "~/.emacs.d/custom.el")
 (load-file "~/.emacs.d/key-bindings.el")
