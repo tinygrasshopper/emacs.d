@@ -4,3 +4,5 @@
 
 
 ;;(global-set-key (kbd "C-/") 'comment-or-uncomment-region)
+
+(global-set-key (kbd "C-c r") 'revert-buffer)
