@@ -31,3 +31,6 @@
 [submodule "packages/ruby-test-mode"]
 	path = packages/ruby-test-mode
 	url = https://github.com/r0man/ruby-test-mode.git
+[submodule "packages/cucumber"]
+	path = packages/cucumber
+	url = git://github.com/tinygrasshopper/cucumber.el.git
