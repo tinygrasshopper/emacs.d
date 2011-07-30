@@ -28,9 +28,6 @@
 [submodule "packages/one-key"]
 	path = packages/one-key
 	url = https://github.com/emacsmirror/one-key.git
-[submodule "packages/cucumber"]
-	path = packages/cucumber
-	url = https://github.com/michaelklishin/cucumber.el
 [submodule "packages/ruby-test-mode"]
 	path = packages/ruby-test-mode
 	url = https://github.com/r0man/ruby-test-mode.git
