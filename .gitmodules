@@ -37,3 +37,6 @@
 [submodule "packages/yasnippets-rails"]
 	path = packages/yasnippets-rails
 	url = git://github.com/eschulte/yasnippets-rails.git
+[submodule "packages/wrap-region"]
+	path = packages/wrap-region
+	url = git://github.com/rejeep/wrap-region.git
