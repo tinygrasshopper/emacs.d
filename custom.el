@@ -14,6 +14,8 @@
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; Set file name in title
+(setq frame-title-format "%f - emacs")
 
 ;; Font size to 9
 (set-face-attribute 'default nil :height 90)
