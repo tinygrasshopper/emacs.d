@@ -34,3 +34,6 @@
 [submodule "packages/cucumber"]
 	path = packages/cucumber
 	url = git://github.com/tinygrasshopper/cucumber.el.git
+[submodule "packages/yasnippets-rails"]
+	path = packages/yasnippets-rails
+	url = git://github.com/eschulte/yasnippets-rails.git

@@ -13,9 +13,8 @@
 (load-package "cucumber")
 (load-package "ruby-test-mode")
 
-
 ;; Snippet Directory
-(setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets" "~/.emacs.d/packages/cucumber/snippets"))
+(setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets" "~/.emacs.d/packages/cucumber/snippets" "~/.emacs.d/packages/yasnippets-rails/rails-snippets"))
 
 ;;(yas/load-directory yas/my-directory)
 (mapc 'yas/load-directory yas/my-directory)
