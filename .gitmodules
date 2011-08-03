@@ -46,3 +46,6 @@
 [submodule "packages/haml-mode"]
 	path = packages/haml-mode
 	url = git://github.com/nex3/haml-mode.git
+[submodule "packages/sass-mode"]
+	path = packages/sass-mode
+	url = git://github.com/nex3/sass-mode.git
