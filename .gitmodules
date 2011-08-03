@@ -40,3 +40,6 @@
 [submodule "packages/wrap-region"]
 	path = packages/wrap-region
 	url = git://github.com/rejeep/wrap-region.git
+[submodule "packages/egg"]
+	path = packages/egg
+	url = git://github.com/byplayer/egg.git

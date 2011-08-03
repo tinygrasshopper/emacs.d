@@ -13,6 +13,7 @@
 (load-package "cucumber")
 (load-package "ruby-test-mode")
 (load-package "wrap-region")
+(load-package "egg")
 
 ;; Snippet Directory
 (setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets" "~/.emacs.d/packages/cucumber/snippets" "~/.emacs.d/packages/yasnippets-rails/rails-snippets"))
