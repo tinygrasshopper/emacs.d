@@ -21,10 +21,6 @@
 (set-face-attribute 'default nil :height 90)
 
 
-;; Shift + Arrow keys for moving across windows
-(windmove-default-keybindings)
-
-
 
 (defun move-text-internal (arg)
    (cond
@@ -56,8 +52,6 @@
   arg lines up."
    (interactive "*p")
    (move-text-internal (- arg)))
-(global-set-key [\M-\S-up] 'move-text-up)
-(global-set-key [\M-\S-down] 'move-text-down)
 
 
 (defun comment-uncomment-line-or-region (&optional arg)
@@ -117,7 +111,6 @@ With arg copies and reinserts last line."
 (provide 'comment-uncomment-line-or-region)
 ;;; comment-uncomment-line-or-region.el ends here
 
-(global-set-key (kbd "C-/") 'comment-uncomment-line-or-region)
 
 (defun duplicate-current-line-or-region (arg)
   "Duplicates the current line or region ARG times.
@@ -138,4 +131,3 @@ there's a region, all lines that region covers will be duplicated."
         (insert region)
         (setq end (point)))
       (goto-char (+ origin (* (length region) arg) arg)))))
-(global-set-key (kbd "C-c d") 'duplicate-current-line-or-region)
