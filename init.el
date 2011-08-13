@@ -51,5 +51,6 @@
 ;; Remove the comment about encoding in ruby mode
 (setq ruby-insert-encoding-magic-comment nil)
 
+(load-file "~/.emacs.d/functions.el")
 (load-file "~/.emacs.d/custom.el")
 (load-file "~/.emacs.d/key-bindings.el")
