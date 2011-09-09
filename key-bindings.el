@@ -6,3 +6,4 @@
 (global-set-key (kbd "C-/") 'comment-uncomment-line-or-region)
 (global-set-key (kbd "C-c r") 'revert-buffer)
 (global-set-key (kbd "C-c d") 'duplicate-current-line-or-region)
+(global-set-key (kbd "C-c +") 'toggle-transparency)
