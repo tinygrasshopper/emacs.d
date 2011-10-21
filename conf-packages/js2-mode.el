@@ -1,0 +1,5 @@
+(setq c-basic-offset 2)
+(add-to-list 'load-path "~/.emacs.d/packages/js2-mode")
+(require 'js2-mode)
+(autoload 'js2-mode "js2" nil t)
+(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))

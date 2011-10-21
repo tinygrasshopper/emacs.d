@@ -49,3 +49,6 @@
 [submodule "packages/sass-mode"]
 	path = packages/sass-mode
 	url = git://github.com/nex3/sass-mode.git
+[submodule "packages/js2-mode"]
+	path = packages/js2-mode
+	url = git://github.com/mooz/js2-mode.git
