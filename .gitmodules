@@ -43,3 +43,9 @@
 [submodule "packages/js2-mode"]
 	path = packages/js2-mode
 	url = git://github.com/mooz/js2-mode.git
+[submodule "packages/one-key"]
+	path = packages/one-key
+	url = git://github.com/vapniks/one-key.git
+[submodule "packages/yasnippet"]
+	path = packages/yasnippet
+	url = git://github.com/capitaomorte/yasnippet.git
