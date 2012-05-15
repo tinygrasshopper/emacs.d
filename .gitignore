@@ -7,3 +7,4 @@ tmp/*
 ac-comphist.dat
 places
 packages/auto-complete
+packages/color-theme
