@@ -1,9 +1,6 @@
 [submodule "packages/zencoding"]
 	path = packages/zencoding
 	url = git://github.com/rooney/zencoding.git
-[submodule "packages/yasnippet"]
-	path = packages/yasnippet
-	url = https://github.com/emacsmirror/yasnippet.git
 [submodule "packages/zencoding-mode"]
 	path = packages/zencoding-mode
 	url = git://github.com/rooney/zencoding.git
@@ -13,9 +10,6 @@
 [submodule "packages/rvm.el"]
 	path = packages/rvm.el
 	url = git://github.com/senny/rvm.el
-[submodule "packages/color-theme"]
-	path = packages/color-theme
-	url = https://github.com/emacsmirror/color-theme.git
 [submodule "src-packages/auto-complete"]
 	path = src-packages/auto-complete
 	url = https://github.com/m2ym/auto-complete.git
@@ -25,9 +19,6 @@
 [submodule "packages/rhtml"]
 	path = packages/rhtml
 	url = https://github.com/eschulte/rhtml.git
-[submodule "packages/one-key"]
-	path = packages/one-key
-	url = https://github.com/emacsmirror/one-key.git
 [submodule "packages/ruby-test-mode"]
 	path = packages/ruby-test-mode
 	url = https://github.com/r0man/ruby-test-mode.git
