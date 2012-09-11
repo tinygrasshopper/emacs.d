@@ -17,6 +17,7 @@
 (load-package "haml-mode")
 (load-package "sass-mode")
 (load-package "js2-mode")
+(load-package "php-mode")
 
 ;; Snippet Directory
 (setq yas/my-directory '("~/.emacs.d/packages/yasnippet/snippets" "~/.emacs.d/packages/cucumber/snippets" "~/.emacs.d/packages/yasnippets-rails/rails-snippets"))
